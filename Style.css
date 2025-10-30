@@ -4,7 +4,9 @@ body{
     height: 100; width: 100;
 }
 h1{
+    align-items: center;
     color: #000;
+    
 }
 h2{
     color: #000;
