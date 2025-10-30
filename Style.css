@@ -1,6 +1,7 @@
 body{
     background: gray;
     color: #a7cbf3;
+    height: 100; width: 100;
 }
 h1{
     color: #000;
