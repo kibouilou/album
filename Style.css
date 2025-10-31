@@ -1,38 +1,22 @@
 body{
-    background: gray;
-    color: #a7cbf3;
-    height: 100; width: 100;
-}
-h1{
-    align-items: center;
-    color: #000;
-    
-}
-h2{
-    color: #000;
-}
-p {
-    color: #000;
-}
-img { 
-    height: 300;
-    width: 600;
-}
-img.seconde {
-    background-image: url(gims.jpg2.jpg);
+    float: none;
+    margin:0;
+    background-image: url(gims.image.jpg);
+    background-repeat: no-repeat;
     background-position: center;
-    height: 400;
-    width: 500;
-    gap: 15px;
-    object-position: left;
-}
-ol{
-    color: #000;
-}
-ul {
-    font-family: arial;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
-i{
-    color: #f7f3f3;
+h1{
+    text-align: initial;
+}
+h2{
+    text-align: initial;
+}
+ol{
+    color:rgb(211, 235, 250);
+}
+img{
+    transform: matrix(gims);
 }
