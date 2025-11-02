@@ -1,7 +1,7 @@
 body{
+    background-color: gray;
     float: none;
     margin:0;
-    background-image: url(gims.image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -10,13 +10,18 @@ body{
 }
 h1{
     text-align: initial;
+    align-items: center;
 }
 h2{
     text-align: initial;
 }
 ol{
-    color:rgb(211, 235, 250);
+    color:rgb(15, 15, 15);
 }
 img{
     transform: matrix(gims);
+    display: flex ;
+    align-items:center;
+    margin-left: auto;
+    
 }
